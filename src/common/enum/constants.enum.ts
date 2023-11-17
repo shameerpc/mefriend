@@ -1,0 +1,10 @@
+export enum constants {
+  JWT_EXPIRY = 24, //hours
+  JWT_REFRESH_EXPIRY = 7, //days
+  SUPERADMIN_MERCHANT_KEY = 'MRCHNT-2023-1',
+  SUPERADMIN_MERCHANT_SECRET = '0bbaaa93b09270402f3f40528594051d635d00752c2398f04e534a238ef2eb07',
+
+  MERCHANT_EXPIRY = 30, //days
+  EVENT_BUCKET = 'mefriendeventbooking.dev',
+  IMAGE_BASE_URL = '',
+}
